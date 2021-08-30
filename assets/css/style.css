@@ -229,6 +229,9 @@ ul{
 .bannerContent.notslide h2 {
     margin-right: 20px;
 }
+.bannerContent.homesile {
+    padding-top: 20px;
+}
 .bannerContent {
     padding-top: 100px;
     text-align: right;
@@ -659,7 +662,7 @@ cursor: pointer;
 }
 .projech_footer {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr auto;
     align-items: center;
     margin-top: 10px;
 }
@@ -1463,7 +1466,19 @@ text-transform: uppercase;
 
 
 
+.about_conter.home {
+    margin-top: 0;
+}
+.about_us.home {
+    padding-top: 50px;
+}
 
+.banner_slick.home #prevslider {
+    z-index: 2;
+}
+.banner_slick.home #prevslider::before{
+    display: none;
+}
 
 
 

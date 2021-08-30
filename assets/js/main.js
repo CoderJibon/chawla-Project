@@ -16,7 +16,7 @@
       autoplay: true,
       autoplaySpeed: 2000,
       arrows:true,
-      prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+      prevArrow: '<button id="prevslider" type="button" class="slick-prev"><span class="material-icons">arrow_back_ios</span></button>',
       nextArrow: '<button type="button" class="slick-next"><span class="material-icons">arrow_forward_ios</span></button>'
     });
 
