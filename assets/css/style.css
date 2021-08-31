@@ -669,9 +669,8 @@ cursor: pointer;
 .bar {
     display: grid;
 }
-.project_img_box img {
-    height: 350px;
-    object-fit: revert;
+.righttext {
+    text-align: right;
 }
 /* reviews section area */
 #reviews {
