@@ -1001,14 +1001,19 @@ height: 30px;
     background-color: transparent;
 }
 .bannerImg.howAndWhy p {
-    color: #454545;
-    text-shadow: 3px 3px 2px ghostwhite;
+    color: #cd0b05;
+    text-shadow: 3px 3px 2px #09090f;
 }
 .bannerImg.howAndWhy h2{
-    color: #454545;
-    text-shadow: 3px 3px 2px ghostwhite;
+    color: #cd0b05;
+    text-shadow: 3px 3px 2px #09090f;
 }
-
+.why_us_content ul li span {
+    font-weight: bold;
+}
+.content_map_img.about {
+    padding-top: 50px;
+}
 /* why us section */
 #why_us {
     padding: 70px 0;
@@ -1478,6 +1483,21 @@ text-transform: uppercase;
 }
 .banner_slick.home #prevslider::before{
     display: none;
+}
+
+.bannerContent.homesile {
+    padding-top: 30px;
+}
+
+.Architectural_content ul {
+    list-style: disclosure-closed;
+    padding-bottom: 10px;
+}
+.Architectural_content ul li {
+    margin-bottom: 10px;
+}
+.Architectural_content ul li span {
+    font-weight: bold;
 }
 
 
