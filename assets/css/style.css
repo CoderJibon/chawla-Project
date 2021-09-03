@@ -575,7 +575,7 @@ cursor: pointer;
 .services_area {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 40px;
     align-items: center;
 }
 .services_box_left img {
@@ -957,7 +957,7 @@ height: 30px;
     width: 100%;
 }
 .slideBanner .bannerImg.howAndWhy.services.asdfa {
-    height: 500px!important;
+    height: 350px!important;
 }
 .slideBanner .redBgc {
     bottom: 0;
@@ -997,16 +997,13 @@ height: 30px;
     color: #cd0b05;
 }
 /* how and why page area */
-.bannerImg.howAndWhy .bgoverley {
-    background-color: transparent;
-}
+
 .bannerImg.howAndWhy p {
-    color: #cd0b05;
-    text-shadow: 3px 3px 2px #09090f;
+    color: #fff;
+    
 }
 .bannerImg.howAndWhy h2{
-    color: #cd0b05;
-    text-shadow: 3px 3px 2px #09090f;
+    color: #fff;
 }
 .why_us_content ul li span {
     font-weight: bold;
@@ -1248,13 +1245,24 @@ text-transform: uppercase;
 .bannerImg.howAndWhy.services {
     position: relative;
 }
-.redBgc {
+/* .redBgc {
     position: absolute;
     background-color: #CD0B05;
     padding: 36px 83px;
     border: none;
     right: 0;
     bottom: -160px;
+} */
+.redBgc {
+    width: 500px;
+    height: 100%;
+    padding: 36px 33px;
+    background-color: #cd0b05;
+}
+.maingRight {
+    width: 50%;
+    display: flex;
+    margin-left: auto;
 }
 .redBgc h3 {
     font-family: Josefin Sans;
@@ -1295,7 +1303,9 @@ text-transform: uppercase;
 .subchild::after {
     width: 1px !important;
 }
-
+#slide_banner {
+    padding-bottom: 0;
+}
  /****/
 
  /* slider */
@@ -1486,7 +1496,7 @@ text-transform: uppercase;
 }
 
 .bannerContent.homesile {
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .Architectural_content ul {
@@ -1499,8 +1509,28 @@ text-transform: uppercase;
 .Architectural_content ul li span {
     font-weight: bold;
 }
+.slideimg {
+   width: 100%;
+   height: 100%;
+}
+.slideimg img {
+    max-width: 100%;
+    height: 500px;
+    object-fit: fill;
+}
+#custom-slider-start {
+    background-color: #cd0b05;
+    padding: 50px 0;
+}
 
-
+/* .bgoverley_not.aslider-for.slick-initialized.slick-slider {
+    max-width: 533px;
+    display: flex;
+    margin-left: auto;
+} */
+#slide_banner {
+    padding: 50px 0;
+}
 
 
 

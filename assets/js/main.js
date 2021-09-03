@@ -2,6 +2,29 @@
 (function($){
   $(document).ready(function(){
 
+    $('.aslider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.sliderarea'
+    });
+
+    $('.sliderarea').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      asNavFor: '.aslider-for',
+      dots: false,
+      infinite: true,
+      speed: 300,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      centerMode: false,
+      focusOnSelect: true,
+      pauseOnHover:false,
+    });
+    
+    
 
     $('.menu_icon').on('click',function(){
       $('.off_canvas_menu').fadeToggle("slow");
@@ -140,7 +163,16 @@ $('.count3').each(function () {
 
 
 
+
+
+
 });
+
+
+
+
+
+
   })(jQuery);
 
 
