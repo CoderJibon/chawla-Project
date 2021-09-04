@@ -1305,6 +1305,10 @@ text-transform: uppercase;
 }
 #slide_banner {
     padding-bottom: 0;
+    
+}
+.slideBanner.single-banner {
+    padding: 0;
 }
  /****/
 
@@ -1528,7 +1532,7 @@ text-transform: uppercase;
     display: flex;
     margin-left: auto;
 } */
-#slide_banner {
+.slideBanner {
     padding: 50px 0;
 }
 

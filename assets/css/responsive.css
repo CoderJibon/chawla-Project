@@ -4,10 +4,40 @@
         max-width: 768px;
         margin: auto;
     }
+   
+    .slideimg img {
+        max-width: 100%;
+        height: 400px;
+        object-fit: fill;
+    }
+    .bannerImg{
+        position: inherit;
+        height: 100%;
+        width: 100%;
+    }
+    .maingRight {
+        width: 100%;
+        display: inherit;
+        margin: auto;
+    }
+    .redBgc {
+        width: 100%;
+        height: 100%;
+        padding: 36px 33px;
+        background-color: #cd0b05;
+    }
+
+    .slideBanner, #custom-slider-start .sliderarea {
+        max-width: 768px;
+        margin: auto;
+    }
 }
 
 @media only screen and (max-width: 992px){
-    
+    .slideBanner, #custom-slider-start .sliderarea {
+        max-width: 600px;
+        margin: auto;
+    }
     #bannerImageNEw .slick-dots {
         display: none!important;
     }
@@ -207,6 +237,10 @@
 }
 
 @media only screen and (max-width: 600px){
+    .slideBanner, #custom-slider-start .sliderarea {
+        max-width: 400px;
+        margin: auto;
+    }
     #bannerImageNEw {
         max-width: 400px;
         margin: auto;
@@ -311,9 +345,31 @@
         grid-template-columns: auto;
         grid-row-gap: 25px;
     }
+   
+    .redBgc {
+        box-sizing: border-box;
+        padding: 20px;
+    }
 
 }
 @media only screen and (max-width: 480px){
+    .slideBanner, #custom-slider-start .sliderarea {
+        max-width: 300px;
+        margin: auto;
+    }
+    .redBgc h3 {
+        font-size: 13px;
+        box-sizing: border-box;
+        line-height: 15px;
+    }
+    .slideimg img {
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .slideBanner .bannerImg.howAndWhy.services.asdfa {
+        height: auto !important;
+    }
     #bannerImageNEw {
         max-width: 300px;
         margin: auto;
